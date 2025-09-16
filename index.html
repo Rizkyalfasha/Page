@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Website Komunitas</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Website Komunitas</h1>
+    <p>Bukan Sekadar Aplikasi, Ini Komunitas Kita</p>
+  </header>
+
+  <!-- Tombol kotak di tengah -->
+  <div class="menu-grid">
+    <button onclick="showPage('profil')">📘<br>Profil</button>
+    <button onclick="showPage('bagus')">⭐<br>Sangat Bagus</button>
+    <button onclick="showPage('jabatan')">📋<br>Jabatan</button>
+    <button onclick="showPage('panduan')">📖<br>Buku Panduan</button>
+    <button onclick="showPage('video')">🎥<br>Tutorial</button>
+    <button onclick="showPage('kode')">💻<br>Kode</button>
+    <button onclick="showPage('kartu')">🎁<br>Kartu Kejutan</button>
+    <button onclick="showPage('undang')">👥<br>Undang</button>
+  </div>
+
+  <!-- Halaman -->
+  <main>
+    <div id="home" class="page active">
+      <h2>Beranda</h2>
+      <p>Selamat datang di Website Komunitas!</p>
+    </div>
+    <div id="profil" class="page"><h2>Profil Perusahaan</h2><p>Isi profil perusahaan di sini...</p></div>
+    <div id="bagus" class="page"><h2>Sangat Bagus</h2><p>Konten halaman sangat bagus.</p></div>
+    <div id="jabatan" class="page"><h2>Jabatan</h2><p>Daftar jabatan perusahaan.</p></div>
+    <div id="panduan" class="page"><h2>Buku Panduan</h2><p>Panduan untuk komunitas.</p></div>
+    <div id="video" class="page"><h2>Tutorial Video</h2><p>Tempat video tutorial.</p></div>
+    <div id="kode" class="page"><h2>Kode</h2><pre>console.log("Halo Komunitas!");</pre></div>
+    <div id="kartu" class="page"><h2>Kartu Kejutan</h2><p>Isi kartu kejutanmu di sini.</p></div>
+    <div id="undang" class="page"><h2>Undang Teman</h2><p>Bagikan website ini ke temanmu.</p></div>
+  </main>
+
+  <!-- Navbar bawah -->
+  <nav>
+    <button onclick="showPage('home')">🏠<br>Beranda</button>
+    <button onclick="showPage('tugas')">📋<br>Tugas</button>
+    <button onclick="showPage('vip')">💎<br>VIP</button>
+    <button onclick="showPage('keuntungan')">🎁<br>Keuntungan</button>
+    <button onclick="showPage('saya')">👤<br>Saya</button>
+  </nav>
+
+  <!-- Halaman tambahan navbar -->
+  <div id="tugas" class="page"><h2>Tugas</h2><p>Daftar tugas pengguna.</p></div>
+  <div id="vip" class="page"><h2>VIP</h2><p>Fitur khusus untuk VIP.</p></div>
+  <div id="keuntungan" class="page"><h2>Keuntungan</h2><p>Semua keuntungan bergabung.</p></div>
+  <div id="saya" class="page"><h2>Profil Saya</h2><p>Informasi akun kamu.</p></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
