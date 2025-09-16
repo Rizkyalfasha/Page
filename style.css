@@ -31,17 +31,17 @@ body {
 
 .menu-item p {
   margin: 5px 0 0;
-  font-size: 14px;
+  font-size: 13px;
 }
 
-/* Banner promo */
-.promo {
-  margin: 20px;
+/* Konten */
+main {
   padding: 20px;
-  background: purple;
-  color: white;
-  text-align: center;
+  min-height: 50vh;
+  background: white;
+  margin: 10px;
   border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 }
 
 /* Bottom nav */
