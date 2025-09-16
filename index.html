@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Website Komunitas</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="banner">
+    <h1>Website Komunitas</h1>
+    <p>Bukan Sekadar Aplikasi, Ini Komunitas Kita</p>
+  </header>
+
+  <!-- Menu Atas -->
+  <section class="menu">
+    <div class="menu-item" onclick="bukaHalaman('profil')">🏢 <p>Profil Perusahaan</p></div>
+    <div class="menu-item" onclick="bukaHalaman('bagus')">⭐ <p>Sangat Bagus</p></div>
+    <div class="menu-item" onclick="bukaHalaman('jabatan')">👔 <p>Jabatan</p></div>
+    <div class="menu-item" onclick="bukaHalaman('panduan')">📖 <p>Buku Panduan</p></div>
+    <div class="menu-item" onclick="bukaHalaman('video')">🎥 <p>Tutorial Video</p></div>
+    <div class="menu-item" onclick="bukaHalaman('kode')">💻 <p>Kode</p></div>
+    <div class="menu-item" onclick="bukaHalaman('kejutan')">🎁 <p>Kartu Kejutan</p></div>
+    <div class="menu-item" onclick="bukaHalaman('undang')">👥 <p>Undang Teman</p></div>
+  </section>
+
+  <!-- Konten Dinamis -->
+  <main id="konten">
+    <h2>Selamat Datang 👋</h2>
+    <p>Silakan pilih menu di atas atau navigasi bawah.</p>
+  </main>
+
+  <!-- Nav Bawah -->
+  <nav class="bottom-nav">
+    <a href="#" onclick="bukaHalaman('beranda')">🏠 Beranda</a>
+    <a href="#" onclick="bukaHalaman('tugas')">📋 Tugas</a>
+    <a href="#" onclick="bukaHalaman('vip')">💎 VIP</a>
+    <a href="#" onclick="bukaHalaman('keuntungan')">🎁 Keuntungan</a>
+    <a href="#" onclick="bukaHalaman('saya')">👤 Saya</a>
+  </nav>
+
+  <script src="script.js"></script>
+</body>
+</html>
